@@ -1,19 +1,9 @@
 ## Build docker image
 ```
-$ docker build -t kgrodzicki/mls .
+$ ./build.sh 
 ```
 
-## Run in terminal python console
+## Run jupyter notebook. All files will be stored in ./notebooks folder
 ```
-$ docker run -it --rm --name mls kgrodzicki/mls
-```
-
-## Run container in detached mode
-```
-$ docker run -it --name mls -d kgrodzicki/mls
-```
-
-## Execute ipython in terminal
-```
-$ docker exec -i -t mls ipython
+$ ./run_notebook.sh
 ```

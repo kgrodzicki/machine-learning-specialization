@@ -1,2 +1,5 @@
-FROM python:2-onbuild
-RUN pip install --upgrade --no-cache-dir GraphLab-Create-License.tar.gz
+FROM jupyter/notebook 
+MAINTAINER Krzysztof Grodzicki <kgrodzicki@gmail.com>
+VOLUME /tmp
+COPY GraphLab-Create-License.tar.gz /tmp/
+RUN pip2 install --upgrade --no-cache-dir /tmp/GraphLab-Create-License.tar.gz
