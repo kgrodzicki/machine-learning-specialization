@@ -6,12 +6,12 @@ Place your license file in current directory(machine-learning-specialization/mac
 
 ## Build docker image
 ```
-$ ./build.sh 
+$ bash build.sh 
 ```
 
 ## Run jupyter notebook. All files will be stored in ./notebooks folder
 ```
-$ ./run_notebook.sh
+$ bash run_notebook.sh
 [I 22:27:18.506 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
 [W 22:27:18.548 NotebookApp] ipywidgets package not installed.  Widgets are unavailable.
 [W 22:27:18.553 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
