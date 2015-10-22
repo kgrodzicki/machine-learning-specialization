@@ -1,10 +1,19 @@
 ## Requirements
-* Docker - https://www.docker.com
-* GraphLab-Create-License.tar.gz file - https://dato.com/products/create/
+* Install Docker - https://www.docker.com
+* Get your own GraphLab-Create-License.tar.gz file - https://dato.com/products/create/
 
-Place your license file in current directory(machine-learning-specialization/machine-learning-foundations/.)
+## Clone the project
+```
+$ git clone git@github.com:kgrodzicki/machine-learning-specialization.git
+```
 
-## Build docker image
+## Place your own license file in machine-learning-specialization/machine-learning-foundations directory
+```
+$ cd machine-learning-specialization/machine-learning-foundations/
+$ cp PATH_TO_LICENSE_FILE/GraphLab-Create-License.tar.gz .
+```
+
+## Build docker image on your machine
 ```
 $ bash build.sh 
 ```
