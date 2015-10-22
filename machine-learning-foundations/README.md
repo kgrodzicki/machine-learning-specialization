@@ -1,3 +1,5 @@
+Docker image with Jupyter Notebook and Graplab Create included. Extending jupyter/notebook - https://github.com/jupyter/notebook.
+
 ## Requirements
 * Install Docker - https://www.docker.com
 * Get your own GraphLab-Create-License.tar.gz file - https://dato.com/products/create/
