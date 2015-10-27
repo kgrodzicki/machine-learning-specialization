@@ -56,3 +56,4 @@ docs/_build/
 # PyBuilder
 target/
 GraphLab-Create-License.tar.gz
+.ipynb_checkpoints/
