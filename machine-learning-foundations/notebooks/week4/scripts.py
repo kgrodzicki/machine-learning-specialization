@@ -34,3 +34,12 @@ print c
 
 for word in words:
     print c[word]
+
+user2 = [0.03, 4.41, 2.05]
+
+fv1 = [3.29, 3.44, 3.67]
+fv2 = [0.82, 9.71, 3.88]
+fv3 = [8.34, 1.72, 0.02]
+
+for v in [fv1, fv2, fv3]:
+    print v[0] * user2[0] + v[1] * user2[1] + v[2] * user2[2]
