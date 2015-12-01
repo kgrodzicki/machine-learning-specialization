@@ -20,7 +20,7 @@ $ cp PATH_TO_LICENSE_FILE/GraphLab-Create-License.tar.gz .
 $ make build 
 ```
 
-## Run jupyter notebook. All files will be stored in ./notebooks folder
+## Run jupyter notebook
 ```
 $ make run
 [I 22:27:18.506 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
