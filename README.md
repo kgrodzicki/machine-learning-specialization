@@ -9,20 +9,20 @@ Docker image with Jupyter Notebook and Graplab Create included. Extending jupyte
 $ git clone git@github.com:kgrodzicki/machine-learning-specialization.git
 ```
 
-## Place your own license file in machine-learning-specialization/machine-learning-foundations directory
+## Place your own license file in Docker directory
 ```
-$ cd machine-learning-specialization/machine-learning-foundations/
+$ cd Docker 
 $ cp PATH_TO_LICENSE_FILE/GraphLab-Create-License.tar.gz .
 ```
 
 ## Build docker image on your machine
 ```
-$ bash build.sh 
+$ make build 
 ```
 
 ## Run jupyter notebook. All files will be stored in ./notebooks folder
 ```
-$ bash run_notebook.sh
+$ make run
 [I 22:27:18.506 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
 [W 22:27:18.548 NotebookApp] ipywidgets package not installed.  Widgets are unavailable.
 [W 22:27:18.553 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
